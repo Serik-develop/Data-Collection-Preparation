@@ -1,4 +1,4 @@
-# Final Project: Streaming + Batch Data Pipeline
+ï»¿# Final Project: Streaming + Batch Data Pipeline
 
 ## Team Members
 - Bakhramov Serik
@@ -24,21 +24,21 @@ This project demonstrates a streaming + batch data pipeline using:
 
 
 project/
-¦ README.md
-¦ requirements.txt
+Â¦ README.md
+Â¦ requirements.txt
 +- src/
-¦ +- job1_producer.py
-¦ +- job2_cleaner.py
-¦ +- job3_analytics.py
-¦ L- db_utils.py
+Â¦ +- job1_producer.py
+Â¦ +- job2_cleaner.py
+Â¦ +- job3_analytics.py
+Â¦ L- db_utils.py
 +- airflow/dags/
-¦ +- job1_ingestion_dag.py
-¦ +- job2_clean_store_dag.py
-¦ L- job3_daily_summary_dag.py
+Â¦ +- job1_ingestion_dag.py
+Â¦ +- job2_clean_store_dag.py
+Â¦ L- job3_daily_summary_dag.py
 +- data/
-¦ L- app.db
+Â¦ L- app.db
 +- report/
-¦ L- report.pdf
+Â¦ L- report.pdf
 L- docker-compose.yml
 
 
